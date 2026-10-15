@@ -1,12 +1,12 @@
 {
-  "stackName": "dogan",
-  "containerName": "dogan-api",
-  "apiContainerName": "dogan-api",
-  "postgresContainerName": "dogan-pgsql",
-  "livekitContainerName": "dogan-livekit",
+  "stackName": "parkiroid",
+  "containerName": "parkiroid-api",
+  "apiContainerName": "parkiroid-api",
+  "postgresContainerName": "parkiroid-pgsql",
+  "livekitContainerName": "parkiroid-livekit",
   "internalPort": "8080",
-  "apiImageTag": "dogan-api:latest",
+  "apiImageTag": "parkiroid-api:latest",
   "apiPublishPort": "8080",
   "dockerNetwork": "t3-net",
-  "remoteWorkDir": "/cloud-admin/docker/dogan"
+  "remoteWorkDir": "/cloud-admin/docker/parkiroid"
 }

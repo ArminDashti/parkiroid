@@ -1,18 +1,18 @@
 name: parkiroid
 
 services:
-  dogan-webui:
+  parkiroid-webui:
     build:
       context: .
       dockerfile: Dockerfile
       args:
         VITE_API_BASE_URL: ${VITE_API_BASE_URL:-https://dogan-api.xaigrok.ir/dogan/api/v1}
-    image: ${IMAGE_TAG:-dogan-webui:latest}
-    container_name: dogan-webui
+    image: ${IMAGE_TAG:-parkiroid-webui:latest}
+    container_name: parkiroid-webui
     expose:
       - "80"
     volumes:
-      - dogan-webui-vol:/data
+      - parkiroid-webui-vol:/data
     networks:
       - t3-net
     restart: "no"
@@ -23,5 +23,5 @@ networks:
     external: true
 
 volumes:
-  dogan-webui-vol:
-    name: dogan-webui-vol
+  parkiroid-webui-vol:
+    name: parkiroid-webui-vol
