@@ -14,3 +14,25 @@
 parkiroid-android/ai-models/yolo26m_ncnn_model/model.ncnn.bin
 parkiroid-android/ai-models/yolo26n_ncnn_model/model.ncnn.bin
 parkiroid-android/ai-models/yolo26s_ncnn_model/model.ncnn.bin
+
+# hygiene
+node_modules/
+dist/
+build/
+bin/
+obj/
+.venv/
+__pycache__/
+*.log
+logs/
+.env
+.env.*
+*.tsbuildinfo
+.cache/
+coverage/
+*.zip
+*.7z
+graphify-out/
+.gitnexus/
+!.env.example
+/.cursor/skills/caveman-setup/SKILL.md

@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@toon-format/toon": "^4.4.0",
     "livekit-client": "^2.20.1",
     "pinia": "^3.0.3",
     "vue": "^3.5.17",
